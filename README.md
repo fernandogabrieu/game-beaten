@@ -1,16 +1,23 @@
 # gamebeaten
 
-Registre os games que já zerou, está jogando ou deseja jogar em um único lugar.
+Registre os games que já jogou, está jogando ou quer jogar em um único lugar.
+Game Beaten é um aplicativo desenvolvido em Flutter para ajudar os usuários a organizar seus jogos. 
+Com este app, você pode pesquisar jogos, salvá-los localmente e categorizá-los em diferentes status: "Estou Jogando", "Vou Jogar" e "Já Joguei". 
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Pesquisar jogos**: Utiliza a API do RAWG para buscar e adicionar jogos.
+- **Categorias**: Organiza os jogos em "Estou Jogando", "Vou Jogar" e "Já Joguei".
+- **Detalhes do jogo**: Exibe informações completas, como gênero, desenvolvedores, distribuidores e data de lançamento.
+- **Modo claro/escuro**: Altera entre os temas claro e escuro facilmente.
+- **Persistência de dados**: Salva e recupere seus jogos localmente usando Floor.
+- **Verificação de conectividade**: Checa a conexão de internet antes de buscar na API.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: Framework para desenvolvimento multiplataforma.
+- **Floor**: Persistência de dados local.
+- **Retrofit**: Consumo de API.
+- **Provider**: Gerenciamento de estado.
+- **Platform Channel**: Comunicação com código nativo (Android).
+- **API RAWG**: Fonte de dados para informações dos jogos.
